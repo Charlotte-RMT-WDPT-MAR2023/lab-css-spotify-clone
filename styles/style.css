@@ -6,3 +6,133 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css?family=Mulish");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mulish";
+}
+
+h1 {
+  color: #fff;
+  font: weight 900;
+  font-size: 3em;
+  padding-top: 150px;
+}
+
+h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.new-hr {
+  width: 180px;
+  border: 1.5px solid #00b172;
+}
+
+h4 {
+  color: #00b172;
+}
+
+h5 {
+  color: #fff;
+  font-size: 1.3em;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+h6 {
+  color: #fff;
+  font-size: 1em;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  padding-right: 20px;
+  display: flex;
+  float: right;
+  list-style: none;
+  width: 300px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+  height: 500px;
+}
+
+.thumbnail {
+  width: 200px;
+  text-align: center;
+  padding: 50px;
+}
+
+.thumbnail img {
+  height: 60px;
+  align-items: center;
+}
+
+.about div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green {
+  position: relative;
+  background-color: #00b172;
+  color: white;
+  padding: 50px;
+  margin: 10px;
+}
+
+.easytext {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app {
+  height: 400px;
+}
+
+.logo {
+  height: 90px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
+
+.easy {
+  display: flex;
+  justify-content: space-between;
+}
